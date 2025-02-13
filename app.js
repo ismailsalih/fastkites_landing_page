@@ -1,4 +1,4 @@
-const targetDate = new Date("{{ $targetDate }}").getTime(); // Target date from Laravel
+const targetDate = new Date("2025-02-20 00:00:00").getTime(); // Target date from Laravel
 
 const daysElement = document.querySelector(".days .number");
 const hoursElement = document.querySelector(".hours .number");
